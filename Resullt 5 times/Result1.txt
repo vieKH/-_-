@@ -1,0 +1,169 @@
+>> Statistical parameters for matrix 1
+	Mean of matrix: 507.022
+	Standard deviation of matrix: 287618
+	Confidence interval with 95% confidence: (-17319.7, 18333.8)
+>> Statistical parameters for matrix 2
+	Mean of matrix: 484.572
+	Standard deviation of matrix: 287727
+	Confidence interval with 95% confidence: (-17349, 18318.1)
+_______________________________
+>> Using non-omp: 
+	Matrix's size is: 100x100
+	Def meth's time: 0.0025272
+>> Using omp 2: 
+	Matrix's size is: 100x100
+	Def meth's time: 0.0022616
+>> Using omp 4: 
+	Matrix's size is: 100x100
+	Def meth's time: 0.0027108
+>> Using omp 8: 
+	Matrix's size is: 100x100
+	Def meth's time: 0.0039523
+>> Using omp 12: 
+	Matrix's size is: 100x100
+	Def meth's time: 0.0067121
+_______________________________
+>> Using non-omp: 
+	Matrix's size is: 200x200
+	Def meth's time: 0.0288759
+>> Using omp 2: 
+	Matrix's size is: 200x200
+	Def meth's time: 0.0209339
+>> Using omp 4: 
+	Matrix's size is: 200x200
+	Def meth's time: 0.0113568
+>> Using omp 8: 
+	Matrix's size is: 200x200
+	Def meth's time: 0.0132758
+>> Using omp 12: 
+	Matrix's size is: 200x200
+	Def meth's time: 0.0123351
+_______________________________
+>> Using non-omp: 
+	Matrix's size is: 300x300
+	Def meth's time: 0.118899
+>> Using omp 2: 
+	Matrix's size is: 300x300
+	Def meth's time: 0.0610398
+>> Using omp 4: 
+	Matrix's size is: 300x300
+	Def meth's time: 0.0347989
+>> Using omp 8: 
+	Matrix's size is: 300x300
+	Def meth's time: 0.0276959
+>> Using omp 12: 
+	Matrix's size is: 300x300
+	Def meth's time: 0.0263808
+_______________________________
+>> Using non-omp: 
+	Matrix's size is: 400x400
+	Def meth's time: 0.220338
+>> Using omp 2: 
+	Matrix's size is: 400x400
+	Def meth's time: 0.151068
+>> Using omp 4: 
+	Matrix's size is: 400x400
+	Def meth's time: 0.0804576
+>> Using omp 8: 
+	Matrix's size is: 400x400
+	Def meth's time: 0.0628738
+>> Using omp 12: 
+	Matrix's size is: 400x400
+	Def meth's time: 0.050047
+_______________________________
+>> Using non-omp: 
+	Matrix's size is: 500x500
+	Def meth's time: 0.434382
+>> Using omp 2: 
+	Matrix's size is: 500x500
+	Def meth's time: 0.292297
+>> Using omp 4: 
+	Matrix's size is: 500x500
+	Def meth's time: 0.172714
+>> Using omp 8: 
+	Matrix's size is: 500x500
+	Def meth's time: 0.125702
+>> Using omp 12: 
+	Matrix's size is: 500x500
+	Def meth's time: 0.112158
+_______________________________
+>> Using non-omp: 
+	Matrix's size is: 600x600
+	Def meth's time: 0.801267
+>> Using omp 2: 
+	Matrix's size is: 600x600
+	Def meth's time: 0.560384
+>> Using omp 4: 
+	Matrix's size is: 600x600
+	Def meth's time: 0.322904
+>> Using omp 8: 
+	Matrix's size is: 600x600
+	Def meth's time: 0.201631
+>> Using omp 12: 
+	Matrix's size is: 600x600
+	Def meth's time: 0.172324
+_______________________________
+>> Using non-omp: 
+	Matrix's size is: 700x700
+	Def meth's time: 1.31782
+>> Using omp 2: 
+	Matrix's size is: 700x700
+	Def meth's time: 0.922184
+>> Using omp 4: 
+	Matrix's size is: 700x700
+	Def meth's time: 0.48713
+>> Using omp 8: 
+	Matrix's size is: 700x700
+	Def meth's time: 0.288799
+>> Using omp 12: 
+	Matrix's size is: 700x700
+	Def meth's time: 0.257386
+_______________________________
+>> Using non-omp: 
+	Matrix's size is: 800x800
+	Def meth's time: 1.8025
+>> Using omp 2: 
+	Matrix's size is: 800x800
+	Def meth's time: 1.35634
+>> Using omp 4: 
+	Matrix's size is: 800x800
+	Def meth's time: 0.734217
+>> Using omp 8: 
+	Matrix's size is: 800x800
+	Def meth's time: 0.451746
+>> Using omp 12: 
+	Matrix's size is: 800x800
+	Def meth's time: 0.429216
+_______________________________
+>> Using non-omp: 
+	Matrix's size is: 900x900
+	Def meth's time: 2.60798
+>> Using omp 2: 
+	Matrix's size is: 900x900
+	Def meth's time: 2.01663
+>> Using omp 4: 
+	Matrix's size is: 900x900
+	Def meth's time: 1.03228
+>> Using omp 8: 
+	Matrix's size is: 900x900
+	Def meth's time: 0.649069
+>> Using omp 12: 
+	Matrix's size is: 900x900
+	Def meth's time: 0.63131
+_______________________________
+>> Using non-omp: 
+	Matrix's size is: 1000x1000
+	Def meth's time: 3.75213
+>> Using omp 2: 
+	Matrix's size is: 1000x1000
+	Def meth's time: 2.8528
+>> Using omp 4: 
+	Matrix's size is: 1000x1000
+	Def meth's time: 1.49182
+>> Using omp 8: 
+	Matrix's size is: 1000x1000
+	Def meth's time: 0.932515
+>> Using omp 12: 
+	Matrix's size is: 1000x1000
+	Def meth's time: 0.934101
+_______________________________
