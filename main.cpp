@@ -15,27 +15,6 @@ struct statistical_para {
 	double confi_inter_right;
 };
 
-
-template <class T>
-T max_value(const std::vector<T> rcV)
-{
-	if (rcV.empty())
-		return 0;
-	std::vector<T> vmax(omp_get_max_threads(), rcV[0]);
-	T max = rcV[0];
-#pragma omp parallel
-	{
-		
-		int nSize = omp_get_num_threads();
-		int nRank = omp_get_thread_num();
-		int uChunkSize = rcV.size() / nSize;
-		int nStart = uChunkSize * nRank;
-		int nEnd = (nRank == nSize - 1 ? rcV.size() : (nRank + 1) * uChunkSize);
-		vmax[nRank] = *max_element(rcV.begin() + nStart, rcV.begin() + nEnd);
-	}
-	return *max_element(vmax.begin(), vmax.end());
-}
-
 template <class T>
 void multiply_non_omp(T** matrix1, T** matrix2, T** result, int size)
 {
@@ -52,7 +31,6 @@ void multiply_non_omp(T** matrix1, T** matrix2, T** result, int size)
 template <class T>
 void multiply_omp(T** matrix1, T** matrix2, T** result, int size, int num_thread)
 {
-	int threads;
 # pragma omp parallel for num_threads(num_thread)
 	for (int i = 0; i < size; i++)
 		for (int j = 0; j < size; j++)
